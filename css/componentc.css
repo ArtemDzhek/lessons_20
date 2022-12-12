@@ -1,0 +1,45 @@
+
+
+
+
+body{
+  scroll-behavior:smooth;
+  }
+
+body{
+   font-family: 'Poppins' 'Gelasio';
+ }
+.conteiner{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blue {
+  background: #2D74FF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  box-shadow: 3px 2px 10px 0px rgba(0,0,0,0.75);
+}
+.blue:hover{
+  box-shadow: none;
+  transition: 0.3s all 0.1s;
+}
+.blue:active{
+  background: #76a2f9;
+  transition: 0.3s all 0.1s;
+}
+.blue__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'padding';
+  font-weight: 500;
+}
+.blue__text:active{
+  color: #3c3b3b;
+  transition: 0.3s all 0.1s;
+}
